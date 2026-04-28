@@ -1,1 +1,17 @@
-<h1>Om oss</h1>
+<h1>En bild!</h1>
+<main id="bildMain">
+  <h2>
+    {{ imgH2 }}
+  </h2>
+  <h3>
+    {{ imgH3 }}
+  </h3>
+  <p>
+    {{ imgP }}
+  </p>
+    @if(showButton) {
+  <button (click)="changeImg()">Klicka här för ett gladare djur!</button>
+  }
+  <img [src]="mainImg" alt="En skäggagam">
+
+</main>
