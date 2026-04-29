@@ -33,10 +33,18 @@
         width: 60%;
         height: auto;
     }
+
+    p {
+        max-width: 55ch;
+    }
 }
 
 @media (min-width: 1200px) {
     img {
         max-width: 60%;
+    }
+
+    p {
+        max-width: 60ch;
     }
 }
