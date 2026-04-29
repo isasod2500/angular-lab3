@@ -3,7 +3,8 @@ html, body {
 }
 
 h1, h2, h3 {
-    color: black ;
+    color: black;
+    text-align: center
 }
 
 html, body, main {
