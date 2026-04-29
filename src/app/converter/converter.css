@@ -1,0 +1,73 @@
+#converters {
+    display: flex;
+    flex-direction: column;
+}
+
+#degrees {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+#distances {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    margin-bottom: 1rem;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#tempResult {
+    font-size: 20px;
+}
+
+button {
+    margin-bottom: 1rem;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+      background-color: #588b59;
+    color: white;
+}
+
+button:disabled:hover {
+    cursor:not-allowed;
+    text-decoration: none;
+    background-color: #588b59;
+} 
+
+button:hover {
+    text-decoration: underline;
+    background-color: #335733;
+    cursor:pointer
+}
+
+button:active {
+    background-color: #74c476;
+}
+
+
+

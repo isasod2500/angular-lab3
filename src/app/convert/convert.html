@@ -1,36 +1,4 @@
 <main id="convertMain">
   <h1>Konvertera från hemska imperiala mått till magiska metriska mått :)</h1>
-  <div id="converters">
-    <div id="degrees">
-      <h2>Temperatur</h2>
-      <select id="tempChoice" [(ngModel)]="tempChoice">
-        <option value="toFahren">Celsius till Fahrenheit</option>
-        <option value="toCelsius">Fahrenheit till Celsius</option>
-      </select>
-
-      <label for="tempInput">
-        <input type="number" id="tempInput" [(ngModel)]="tempInput">
-      </label>
-      <button id="submit" (click)="convertTemp()">Räkna ut</button>
-      <div id="tempResult">
-        <p><b> {{ tempResult }} </b></p>
-      </div>
-    </div>
-
-    <div id="distances">
-      <h2>Distanser</h2>
-      <select id="distChoice" [(ngModel)]="distChoice">
-        <option value="toFeet">Meter till fot</option>
-        <option value="toMeters">Fot till meter</option>
-      </select>
-
-      <label for="distInput">
-        <input type="number" id="distInput" [(ngModel)]="distInput">
-      </label>
-      <button id="submit" (click)="convertDist()">Räkna ut</button>
-      <div id="distResult">
-        <p><b> {{ distResult }} </b></p>
-      </div>
-    </div>
-  </div>
+  <app-converter></app-converter>
 </main>
