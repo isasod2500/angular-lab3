@@ -1,5 +1,13 @@
-h1, h2 {
+
+#main-header {
     text-align: center;
+}
+
+#homeSection {
+    background: #f4d4aa;
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 1rem;
 }
 
 #indexMain {
@@ -13,6 +21,10 @@ h1, h2 {
     img {
         width: 60%;
         height: auto;
+    }
+
+    p {
+        max-width: 50ch;
     }
 }
 
